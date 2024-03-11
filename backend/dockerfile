@@ -6,6 +6,6 @@ WORKDIR /opt/apache-tomcat-8.5.99
 COPY context.xml conf/context.xml
 ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar lib/
 COPY student.war webapps/student.war
-EXPOSE 8080
+EXPOSE 32770
 ENTRYPOINT [ "bin/catalina.sh"]
 CMD ["run"]
