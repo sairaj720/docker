@@ -20,7 +20,7 @@
 <Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
            maxTotal="500" maxIdle="30" maxWaitMillis="1000"
            username="admin" password="12345678" driverClassName="com.mysql.jdbc.Driver"
-           url="jdbc:mysql://endpo:3306/studentapp?useUnicode=yes&amp;characterEncoding=utf8"/>
+           url="jdbc:mysql://172.17.0.2:3306/studentapp?useUnicode=yes&amp;characterEncoding=utf8"/>
 
     <!-- Default set of monitored resources. If one of these changes, the    -->
     <!-- web application will be reloaded.                                   -->
